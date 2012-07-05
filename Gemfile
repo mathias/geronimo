@@ -20,6 +20,7 @@ gem 'thin'
 
 group :development, :test do
   gem 'capybara'
+  gem 'pry-rails'
   gem 'rspec-rails'
 end
 
