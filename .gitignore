@@ -11,7 +11,10 @@
 /db/*.sqlite3
 
 # Ignore devbox-specific database.yml configs:
-/db/database.yml
+/config/database.yml
+
+# Ignore devbox-specific secret token:
+/config/initializers/secret_token.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
