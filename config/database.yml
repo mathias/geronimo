@@ -17,9 +17,6 @@ development:
   encoding: unicode
   database: geronimo_development
   pool: 5
-  username: geronimo
-  password:
-
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
   # domain sockets, so uncomment these lines.
@@ -43,13 +40,9 @@ test:
   encoding: unicode
   database: geronimo_test
   pool: 5
-  username: geronimo
-  password:
 
 production:
   adapter: postgresql
   encoding: unicode
   database: geronimo_production
   pool: 5
-  username: geronimo
-  password:
